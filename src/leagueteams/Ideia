@@ -1,0 +1,34 @@
+
+Criar um bot de discord com as seguintes funcionalidades e propósitos:
+
+Propósito:
+O bot seria para montar times de forma mais prática para flex/clash/torneios, criando um discord onde
+cada pessoa que entrar, ele cadastraria com role e elo (puxando do op.gg ou da api da rito), o intuito
+base é esse, além de ser um projeto próprio pra treinar.
+
+
+Funcionalidades:
+
+/teams
+Checar quais times existem, mostra as 5 roles, mostra qual tá vaga, o nick deles e o elo.
+
+/createteam "nome"
+Criar um novo time
+
+/team "nome" "role"
+entrar em uma das roles disponíveis
+
+/clear
+excluir times existentes
+
+
+Funcionalidades avançadas:
+
+/history "nick"
+mostra quantas o jogador já ganhou usando o bot
+
+/ranking
+Um ranking do servidor baseado em uma pontuação própria para cada partida (3 por win -2 e por lose)
+
+/mp
+Configurar quantos pontos ganhará e quantos perderá ao jogar partidas.
